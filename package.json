@@ -85,6 +85,7 @@
         "@diia-inhouse/types": "^5.0.1",
         "@diia-inhouse/utils": "^2.36.0",
         "@diia-inhouse/validators": "^1.8.1",
+        "@types/amqplib": "0.10.4",
         "@types/cookie-parser": "1.4.6",
         "@types/lodash": "4.14.202",
         "@types/node": "20.10.1",
