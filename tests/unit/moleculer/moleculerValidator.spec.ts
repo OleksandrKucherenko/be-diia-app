@@ -5,8 +5,9 @@ import { AppValidator, ValidationSchema } from '@diia-inhouse/validators'
 import MoleculerValidator from '../../../src/moleculer/moleculerValidator'
 
 describe(`${MoleculerValidator.constructor.name}`, () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const identifierService = new IdentifierService({ salt: 'salt' })
-    const testKit = new TestKit(identifierService)
+    const testKit = new TestKit(/* identifierService */)
 
     const validator = mockInstance(AppValidator)
 

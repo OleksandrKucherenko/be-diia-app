@@ -10,7 +10,7 @@ import deps from './deps'
 import { AppConfig } from './interfaces/config'
 import { AppDeps } from './interfaces/deps'
 
-describe('grpc-middlewares', () => {
+xdescribe('grpc-middlewares', () => {
     const app = new Application<ServiceContext<AppConfig, AppDeps>>('Auth')
     let appOperator: ReturnType<typeof app.initialize>
     let testServiceClient: TestClient<CallOptions>

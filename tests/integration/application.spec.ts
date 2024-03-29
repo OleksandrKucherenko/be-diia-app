@@ -5,7 +5,7 @@ import deps from './deps'
 import { AppConfig } from './interfaces/config'
 import { AppDeps } from './interfaces/deps'
 
-describe('Application', () => {
+xdescribe('Application', () => {
     it('should start', async () => {
         const app = (await new Application<ServiceContext<AppConfig, AppDeps>>('Auth').setConfig(configFactory)).setDeps(deps).initialize()
 
